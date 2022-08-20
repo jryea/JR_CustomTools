@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command JR_CustomTools</Text>
+    <Description>Some description for JR_CustomTools</Description>
+    <Assembly>JR_CustomTools.dll</Assembly>
+    <FullClassName>JR_CustomTools.Command</FullClassName>
+    <ClientId>b38ae1bb-db45-4083-883a-44d6a57518a8</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application JR_CustomTools</Name>
+    <Assembly>JR_CustomTools.dll</Assembly>
+    <FullClassName>JR_CustomTools.App</FullClassName>
+    <ClientId>1e10dc6b-1a24-4d71-a133-134d40d13f6c</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
